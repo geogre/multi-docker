@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4aac0b-2a0c-4b5e-930b-ef67c9dda0b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/Dockerfile.dev" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/nginx/default.conf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Fib.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/OtherPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bUBCQd2pQWkcPb38kTLUpBVno4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588676664000</updated>
-      <workItem from="1588676669223" duration="13808000" />
+      <workItem from="1588676669223" duration="16298000" />
     </task>
     <servers />
   </component>
@@ -80,9 +75,9 @@
       <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="0" y="133" key="SettingsEditor/0.23.1680.943@0.23.1680.943" timestamp="1588676724716" />
-    <state x="128" y="258" width="666" height="472" key="find.popup" timestamp="1588751022141">
+    <state x="128" y="258" width="666" height="472" key="find.popup" timestamp="1588756697352">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
-    <state x="128" y="258" width="666" height="472" key="find.popup/0.23.1680.943@0.23.1680.943" timestamp="1588751022141" />
+    <state x="128" y="258" width="666" height="472" key="find.popup/0.23.1680.943@0.23.1680.943" timestamp="1588756697352" />
   </component>
 </project>

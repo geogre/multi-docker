@@ -1,0 +1,21 @@
+language: generic
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t geogre/react-test -f ./client/Dockerfile.dev ./client
+
+script:
+  - docker run -e CI=true geogre/react-test npm test
+
+after_success:
+  - docker build -t geogre/multi-client ./client
+  - docker build -t geogre/multi-nginx ./nginx
+  - docker build -t geogre/multi-server ./server
+  - docker build -t geogre/multi-worker ./worker
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  - docker push geogre/multi-client
+  - docker push geogre/multi-nginx
+  - docker push geogre/multi-server
+  - docker push geogre/multi-worker
