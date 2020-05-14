@@ -5,19 +5,22 @@
       "name": "client",
       "image": "yuriyvakulik/multi-client",
       "hostname": "client",
-      "essential": false
+      "essential": false,
+      "memory": 32
     },
     {
       "name": "server",
       "image": "yuriyvakulik/multi-server",
       "hostname": "api",
-      "essential": false
+      "essential": false,
+      "memory": 32
     },
     {
       "name": "worker",
       "image": "yuriyvakulik/multi-worker",
       "hostname": "worker",
-      "essential": false
+      "essential": false,
+      "memory": 32
     },
     {
       "name": "nginx",
@@ -30,7 +33,8 @@
           "containerPort": 80
         }
       ],
-      "links": ["client", "server"]
+      "links": ["client", "server"],
+      "memory": 32
     }
   ]
 }
