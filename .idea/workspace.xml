@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f4aac0b-2a0c-4b5e-930b-ef67c9dda0b7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Dockerrun.aws.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,18 +64,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588676664000</updated>
-      <workItem from="1588676669223" duration="16937000" />
+      <workItem from="1588676669223" duration="18185000" />
+      <workItem from="1588843481573" duration="1442000" />
+      <workItem from="1589229726826" duration="168000" />
+      <workItem from="1589440525683" duration="2290000" />
+      <workItem from="1589466078120" duration="594000" />
     </task>
+    <task id="LOCAL-00001" summary="fix name">
+      <created>1588776458900</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588776458900</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix name" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix name" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="49" y="97" key="CommitChangelistDialog2" timestamp="1588776457987">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="49" y="97" key="CommitChangelistDialog2/0.23.1680.943@0.23.1680.943" timestamp="1588776457987" />
     <state x="0" y="133" key="SettingsEditor" timestamp="1588676724716">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
     <state x="0" y="133" key="SettingsEditor/0.23.1680.943@0.23.1680.943" timestamp="1588676724716" />
+    <state x="61" y="236" key="Vcs.Push.Dialog.v2" timestamp="1588776476036">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="61" y="236" key="Vcs.Push.Dialog.v2/0.23.1680.943@0.23.1680.943" timestamp="1588776476036" />
+    <state x="494" y="329" key="com.intellij.ide.util.TipDialog" timestamp="1588937989808">
+      <screen x="0" y="23" width="1680" height="943" />
+    </state>
+    <state x="494" y="329" key="com.intellij.ide.util.TipDialog/0.23.1680.943@0.23.1680.943" timestamp="1588937989808" />
     <state x="128" y="258" width="666" height="472" key="find.popup" timestamp="1588756697352">
       <screen x="0" y="23" width="1680" height="943" />
     </state>
